@@ -1,0 +1,79 @@
+.services {
+    width: 85%;
+    margin: 100px auto 0;
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.service-items {
+    width: 47%;
+}
+
+.service-items h2 {
+    color: #000;
+    text-align: right;
+    font-family: Source Sans Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+.service-items h2 span {
+    color: #FFC700;
+    font-family: Source Sans Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+.service-box {
+    background-color: black;
+    color: aliceblue;
+    padding: 40px 40px 40px 100px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.service-box2 {
+    background-color: black;
+    color: aliceblue;
+    padding: 40px 100px 40px 68px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.service-img {
+    background-color: #FFC700;
+    width: 122px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+}
+.service-img2 {
+    background-color: #FFC700;
+    width: 122px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 20%;
+    right: -10%;
+}
+
+.service-img img {
+    width: 64px;
+    height: 64px;
+    padding: 4px 4px 3px 4px;
+
+}

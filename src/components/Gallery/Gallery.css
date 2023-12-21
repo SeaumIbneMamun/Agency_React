@@ -1,0 +1,104 @@
+.spang{
+    color: #FFC700;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+.spanbgg{
+    width: 100px;
+height: 1px;
+flex-shrink: 0;
+stroke-width: 6px;
+stroke: #FFC700;
+}
+
+.gallery {
+    width: 74%;
+    margin: 100px auto 0;
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 20px;
+}
+.gallery-items{
+
+}
+.cd{
+    position: relative;
+}
+.gallery-items2 {
+    display: flex;
+    gap: 18px;
+    margin-top: 164px;
+    flex-direction: column;
+    z-index: 50;
+}
+
+.img-1{
+    width: 448px;
+height: 500px;
+flex-shrink: 0;
+}
+.img-2{
+    width: 448px;
+height: 306px;
+flex-shrink: 0;
+}
+.img-s{
+    width: 543px;
+height: 500px;
+flex-shrink: 0;
+}
+
+.recent{
+    color: #000;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 54px; /* 112.5% */
+}
+
+.digital {
+    width: 448px;
+height: 108px;
+flex-shrink: 0;
+color: #222A41;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: 51px; /* 150% */
+}
+
+.thought{
+    width: 448px;
+height: 97px;
+flex-shrink: 0;
+color: #222A41;
+font-family: Sintony;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 160% */
+}
+
+.img-boxr{
+    position: relative;
+}
+.rect {
+    position: absolute;
+    z-index: -1;
+    top: 61.75%;
+    right: -36%;
+}
+
+.circle {
+    height: 701px;
+    top: -10%;
+    left: -69%;
+    z-index: -1;
+    rotate: 90deg;
+    position: absolute;
+}
